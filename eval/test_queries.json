@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the maximum deduction under Section 80C?",
+    "expected_sections": ["80C"],
+    "should_fallback": false
+  },
+  {
+    "question": "How much health insurance deduction can I claim for my parents under 80D?",
+    "expected_sections": ["80D"],
+    "should_fallback": false
+  },
+  {
+    "question": "Is education loan interest fully deductible and for how many years?",
+    "expected_sections": ["80E"],
+    "should_fallback": false
+  },
+  {
+    "question": "Can I claim deduction for charitable donations made in cash?",
+    "expected_sections": ["80G"],
+    "should_fallback": false
+  },
+  {
+    "question": "How is HRA exemption calculated for metro cities?",
+    "expected_sections": ["10(13A)"],
+    "should_fallback": false
+  },
+  {
+    "question": "What deductions are available on a home loan?",
+    "expected_sections": ["80C", "24(b)"],
+    "should_fallback": false
+  },
+  {
+    "question": "What is the rebate under section 87A?",
+    "expected_sections": ["87A"],
+    "should_fallback": false
+  },
+  {
+    "question": "What TDS applies on bank interest?",
+    "expected_sections": ["194A"],
+    "should_fallback": false
+  },
+  {
+    "question": "How does presumptive taxation work for small businesses?",
+    "expected_sections": ["44AD"],
+    "should_fallback": false
+  },
+  {
+    "question": "How does presumptive taxation work for professionals?",
+    "expected_sections": ["44ADA"],
+    "should_fallback": false
+  },
+  {
+    "question": "What is the tax rate on short term gains from listed shares?",
+    "expected_sections": ["111A"],
+    "should_fallback": false
+  },
+  {
+    "question": "What is the tax treatment for long term gains on equity mutual funds above one lakh?",
+    "expected_sections": ["112A"],
+    "should_fallback": false
+  },
+  {
+    "question": "Is maturity from a life insurance policy tax free?",
+    "expected_sections": ["10(10D)"],
+    "should_fallback": false
+  },
+  {
+    "question": "What is the new tax regime under 115BAC?",
+    "expected_sections": ["115BAC"],
+    "should_fallback": false
+  },
+  {
+    "question": "When does interest under 234B and 234C apply?",
+    "expected_sections": ["234B/C"],
+    "should_fallback": false
+  },
+  {
+    "question": "Can I claim both 80C and 80D in the same year?",
+    "expected_sections": ["80C", "80D"],
+    "should_fallback": false
+  },
+  {
+    "question": "What is the GST rate on gold jewellery?",
+    "expected_sections": [],
+    "should_fallback": true
+  },
+  {
+    "question": "How much tax do I pay?",
+    "expected_sections": [],
+    "should_fallback": true
+  },
+  {
+    "question": "Tell me about customs duty on imported electronics.",
+    "expected_sections": [],
+    "should_fallback": true
+  },
+  {
+    "question": "What are the tax rules for cryptocurrency mining income?",
+    "expected_sections": [],
+    "should_fallback": true
+  }
+]

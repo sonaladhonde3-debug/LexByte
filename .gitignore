@@ -1,0 +1,12 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+*.log
+data/document_chunks.json
+documents/*
+!documents/.gitkeep
+app/__pycache__/
+tests/__pycache__/
+eval/__pycache__/

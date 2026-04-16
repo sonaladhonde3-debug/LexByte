@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexByte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <!-- Main Chat Content -->
+      <div class="main-content">
+        <!-- Top Header -->
+        <header class="chat-header">
+          <div class="logo">
+            <div class="logo-icon">⚡</div>
+            <span class="logo-text">LexByte</span>
+          </div>
+        </header>
+
+        <main class="chat-main" id="chat-main">
+          <!-- Initial Landing View -->
+          <section class="landing-view" id="landing-view">
+            <div class="landing-content centered">
+              <div class="lexbyte-intro">
+                <div class="logo-hero">⚡ LexByte</div>
+                <h2 class="sub-greeting">Your Professional AI Tax Assistant</h2>
+                <p class="suggestion-text">
+                  Welcome to LexByte – an intelligent Retrieval-Augmented Generation (RAG) assistant designed exclusively for traversing complex Indian Income Tax statutes.<br><br>
+                  Built with a secure backend and powered by AI reasoning, LexByte strictly anchors its answers in validated tax data. Ask any question below to begin!
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Chat Thread container -->
+          <section class="chat-thread" id="chat-thread">
+            <!-- Messages will be appended here dynamically -->
+          </section>
+        </main>
+
+        <!-- Bottom Input Area -->
+        <footer class="input-area">
+          <form id="ask-form" class="chat-input-pill">
+            <button type="button" class="attachment-btn" title="Add context">🔗</button>
+            <input 
+              type="text" 
+              id="question" 
+              autocomplete="off"
+              placeholder="Ask whatever you want about taxes..." 
+              required 
+            />
+            <button id="submit-btn" type="submit" class="send-btn" title="Send">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </form>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Template for user message -->
+    <template id="user-msg-template">
+      <div class="msg-bubble user-msg-container">
+        <div class="msg-content user-blob"></div>
+      </div>
+    </template>
+
+    <!-- Template for AI message -->
+    <template id="ai-msg-template">
+      <div class="msg-bubble ai-msg-container">
+        <div class="ai-avatar">🤖</div>
+        <div class="msg-content ai-blob">
+          <div class="answer-text"></div>
+          
+          <div class="metadata-row">
+            <span class="confidence-chip"></span>
+            <div class="sections-chip-list"></div>
+          </div>
+          
+          <div class="disclaimer-text"></div>
+        </div>
+      </div>
+    </template>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

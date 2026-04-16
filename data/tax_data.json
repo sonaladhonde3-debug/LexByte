@@ -1,0 +1,183 @@
+[
+  {
+    "section": "80C",
+    "title": "Deductions for specified investments and payments",
+    "description": "Section 80C provides deduction for eligible investments and payments under the old tax regime, subject to an overall cap.",
+    "keywords": ["80c", "deduction", "investment", "ppf", "elss", "nsc", "lic", "home loan principal", "tax saving"],
+    "details": [
+      "Maximum deduction limit is Rs 1,50,000 in aggregate.",
+      "Eligible instruments include PPF, ELSS, NSC, life insurance premiums, Sukanya Samriddhi, 5-year tax saver fixed deposits, and repayment of home loan principal.",
+      "The deduction is generally claimed under the old tax regime subject to other applicable conditions."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "80D",
+    "title": "Deduction for health insurance premium",
+    "description": "Section 80D allows deduction for medical insurance premium and preventive health check-ups, subject to age-based limits.",
+    "keywords": ["80d", "health insurance", "medical insurance", "premium", "senior citizen", "preventive health checkup"],
+    "details": [
+      "Up to Rs 25,000 can be claimed for self, spouse, and dependent children.",
+      "An additional deduction up to Rs 25,000 is available for parents, increasing to Rs 50,000 if the parents are senior citizens.",
+      "For a taxpayer who is a senior citizen, the self and family limit can increase to Rs 50,000.",
+      "Preventive health check-up is allowed within the overall limits, subject to the applicable cap."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "80E",
+    "title": "Deduction for interest on education loan",
+    "description": "Section 80E allows deduction for interest paid on an education loan for higher education.",
+    "keywords": ["80e", "education loan", "interest", "higher education", "student loan"],
+    "details": [
+      "Deduction is available only for the interest component of the education loan.",
+      "There is no monetary ceiling specified in the deduction.",
+      "The deduction is available for up to 8 assessment years beginning from the year in which interest repayment starts or until interest is fully paid, whichever is earlier."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "80G",
+    "title": "Deduction for eligible charitable donations",
+    "description": "Section 80G provides deduction for donations to specified funds and institutions subject to conditions.",
+    "keywords": ["80g", "charity", "donation", "trust", "relief fund", "deduction"],
+    "details": [
+      "Depending on the institution, either 50% or 100% of the donation may qualify for deduction.",
+      "Some donations are subject to a qualifying limit while others are allowed without limit.",
+      "Cash donations in excess of Rs 2,000 are not eligible for deduction under this section."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "10(13A)",
+    "title": "Exemption for house rent allowance",
+    "description": "Section 10(13A) read with applicable rules provides exemption for HRA subject to prescribed computation.",
+    "keywords": ["10(13a)", "hra", "house rent allowance", "rent", "metro", "salary"],
+    "details": [
+      "The exemption is generally the least of actual HRA received, rent paid minus 10% of salary, and 50% of salary for metro cities or 40% for non-metro cities.",
+      "Salary for this purpose generally includes basic salary and relevant dearness allowance, where applicable.",
+      "HRA exemption is relevant where the employee pays rent for residential accommodation."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "24(b)",
+    "title": "Deduction for interest on borrowed capital for house property",
+    "description": "Section 24(b) allows deduction for interest on housing loan subject to property-use conditions.",
+    "keywords": ["24(b)", "home loan", "interest", "house property", "self occupied", "let out"],
+    "details": [
+      "For a self-occupied property, interest deduction can be claimed up to Rs 2,00,000 subject to applicable conditions.",
+      "For a let-out property, the interest treatment differs and loss set-off limits may separately apply.",
+      "Pre-construction interest may be claimed in installments as permitted under the provision."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "87A",
+    "title": "Rebate for resident individuals",
+    "description": "Section 87A provides a tax rebate to eligible resident individuals below the applicable income threshold.",
+    "keywords": ["87a", "rebate", "resident individual", "income threshold", "new regime", "old regime"],
+    "details": [
+      "The rebate amount and threshold depend on the regime and the relevant law in force for the year.",
+      "Eligibility applies only to resident individuals satisfying the prescribed taxable income threshold.",
+      "The exact rebate should be interpreted with reference to the applicable regime and tax year."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "194A",
+    "title": "TDS on interest other than interest on securities",
+    "description": "Section 194A covers deduction of tax at source on specified interest payments.",
+    "keywords": ["194a", "tds", "interest", "bank interest", "threshold", "10 percent"],
+    "details": [
+      "TDS is generally deducted at 10% on eligible interest payments, subject to PAN and other conditions.",
+      "Threshold rules differ based on the payer category and applicable law.",
+      "Certain exclusions and declarations may affect whether TDS is actually deducted."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "44AD",
+    "title": "Presumptive taxation for eligible businesses",
+    "description": "Section 44AD offers a presumptive taxation scheme for eligible resident businesses subject to turnover conditions.",
+    "keywords": ["44ad", "presumptive taxation", "business", "6 percent", "8 percent", "turnover"],
+    "details": [
+      "Presumptive income is generally deemed at 8% of turnover or 6% for eligible digital receipts, subject to conditions.",
+      "The scheme applies to eligible assessees carrying on eligible businesses within the prescribed turnover limits.",
+      "Maintaining lower declared income may trigger regular books and audit requirements, subject to law."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "44ADA",
+    "title": "Presumptive taxation for specified professionals",
+    "description": "Section 44ADA provides a presumptive income scheme for eligible professionals.",
+    "keywords": ["44ada", "professional", "presumptive taxation", "50 percent", "gross receipts"],
+    "details": [
+      "Income is generally deemed at 50% of gross receipts under the scheme, subject to conditions.",
+      "The section applies to specified professions and prescribed gross receipt limits.",
+      "Claiming lower income may require maintaining books and complying with audit-related provisions where applicable."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "111A",
+    "title": "Short-term capital gains on certain equity transactions",
+    "description": "Section 111A prescribes a special tax rate for qualifying short-term capital gains on equity-related transactions.",
+    "keywords": ["111a", "stcg", "short term capital gains", "equity", "stt", "15 percent"],
+    "details": [
+      "The section applies to qualifying short-term capital gains arising from transfer of certain equity shares, units, or business trust units where conditions such as STT are met.",
+      "The special tax rate applicable under this section is 15%, subject to the law in force and surcharge or cess implications.",
+      "Whether a transaction qualifies depends on the nature of the asset and the transaction conditions."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "112A",
+    "title": "Long-term capital gains on certain equity transactions",
+    "description": "Section 112A covers long-term capital gains on specified equity instruments above the exempt threshold.",
+    "keywords": ["112a", "ltcg", "long term capital gains", "equity", "grandfathering", "1 lakh"],
+    "details": [
+      "Long-term capital gains exceeding Rs 1,00,000 on qualifying equity shares, equity-oriented mutual funds, and specified units may be taxed at 10%, subject to conditions.",
+      "Grandfathering principles may apply to certain older investments as per the statutory framework.",
+      "Eligibility depends on the asset type and fulfillment of transaction conditions such as STT where relevant."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "10(10D)",
+    "title": "Exemption for sum received under life insurance policy",
+    "description": "Section 10(10D) exempts eligible life insurance maturity proceeds subject to policy conditions.",
+    "keywords": ["10(10d)", "life insurance", "maturity", "exemption", "ulip", "premium"],
+    "details": [
+      "Amounts received under a life insurance policy may be exempt, subject to statutory exceptions and conditions.",
+      "Policies breaching prescribed premium-to-sum-assured conditions may not qualify for full exemption.",
+      "Special rules may apply to certain ULIPs and high-premium policies."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "115BAC",
+    "title": "New tax regime for individuals and specified taxpayers",
+    "description": "Section 115BAC governs the concessional new tax regime and its conditions.",
+    "keywords": ["115bac", "new tax regime", "slab", "deduction", "old regime", "concessional"],
+    "details": [
+      "The new tax regime applies subject to the slab structure and conditions in force for the relevant tax year.",
+      "Several deductions and exemptions available in the old regime may not be available or may be restricted under this regime.",
+      "The option mechanism and continuity rules can vary depending on taxpayer category."
+    ],
+    "tax_year": "FY 2025-26"
+  },
+  {
+    "section": "234B/C",
+    "title": "Interest for default or deferment of advance tax",
+    "description": "Sections 234B and 234C impose interest for non-payment or deferment of advance tax installments.",
+    "keywords": ["234b", "234c", "advance tax", "interest", "default", "deferment"],
+    "details": [
+      "Interest is generally computed at 1% per month or part of a month as applicable under each section.",
+      "Section 234B broadly relates to default in payment of advance tax, while Section 234C addresses deferment of installments.",
+      "The amount depends on the shortfall and the due-date schedule for advance tax."
+    ],
+    "tax_year": "FY 2025-26"
+  }
+]
