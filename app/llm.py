@@ -46,6 +46,10 @@ def build_response_schema() -> types.Schema:
                 type=types.Type.ARRAY,
                 items=types.Schema(type=types.Type.STRING),
             ),
+            "sources": types.Schema(
+                type=types.Type.ARRAY,
+                items=types.Schema(type=types.Type.STRING),
+            ),
             "confidence": types.Schema(type=types.Type.NUMBER),
             "note": types.Schema(type=types.Type.STRING),
         },
@@ -57,12 +61,14 @@ def build_fallback_response(
     *,
     answer: str = "insufficient context",
     applicable_sections: list[str] | None = None,
+    sources: list[str] | None = None,
     confidence: float = 0.0,
     note: str = DEFAULT_NOTE,
 ) -> TaxResponse:
     return TaxResponse(
         answer=answer,
         applicable_sections=applicable_sections or [],
+        sources=sources or [],
         confidence=confidence,
         note=note,
     )
@@ -74,7 +80,7 @@ async def _raw_search_pass(question: str) -> str:
     try:
         response = await client.aio.models.generate_content(
             model=get_model_name(),
-            contents=f"Conduct a web search regarding Indian Income Tax for the following query, and summarize the current facts, dates, and sections: {question}",
+            contents=f"Conduct a web search regarding Indian Income Tax for the following query, and summarize the current facts, dates, and sections. INCLUDE THE URLs OF THE WEBSITES YOU REFERENCED: {question}",
             config=types.GenerateContentConfig(
                 response_mime_type="text/plain",
                 tools=[{'google_search': {}}]

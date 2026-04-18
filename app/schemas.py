@@ -51,6 +51,7 @@ class TaxResponse(BaseModel):
 
     answer: str = Field(..., min_length=1)
     applicable_sections: list[str] = Field(default_factory=list)
+    sources: list[str] = Field(default_factory=list)
     confidence: float = Field(..., ge=0.0, le=1.0)
     note: str = Field(..., min_length=1)
 

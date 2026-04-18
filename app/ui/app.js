@@ -69,6 +69,18 @@ function appendAIMessage(payload, loadingNode) {
     sectionsListEl.appendChild(sp);
   }
   
+  const sourcesListEl = clone.querySelector('.sources-chip-list');
+  if (payload.sources && payload.sources.length > 0) {
+    payload.sources.forEach(src => {
+      const a = document.createElement('a');
+      a.className = 'src-chip';
+      a.href = src;
+      a.target = "_blank";
+      a.textContent = "🔗 " + new URL(src).hostname.replace('www.', '');
+      sourcesListEl.appendChild(a);
+    });
+  }
+
   clone.querySelector('.disclaimer-text').textContent = payload.note || "No note returned.";
   
   chatThread.appendChild(clone);

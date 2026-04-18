@@ -436,6 +436,28 @@ body {
   border-radius: 99px;
 }
 
+.sources-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.src-chip {
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: #EFF6FF;
+  color: #2563EB;
+  padding: 6px 12px;
+  border-radius: 99px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.src-chip:hover {
+  background: #DBEAFE;
+}
+
 .sec-chip.empty {
   background: transparent;
   color: #94A3B8;
